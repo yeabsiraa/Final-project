@@ -1,0 +1,167 @@
+body {
+  background-color: #EBDEF0;
+}
+
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.tablink {
+ background-color: black;
+ color: white;
+ float: left;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 14px 16px;
+ font-size: 17px;
+ width: 14.283%;
+ position: relative;
+}
+
+.tablink2 {
+background-color: black;
+color: white;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+font-size: 17px;
+width: 14.283%;
+position: relative;
+top: -19px;
+}
+
+.tablink:hover {
+ background-color: #5499C7;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+ color: white;
+ display: none;
+ padding: 100px 20px;
+ height: 100%;
+}
+
+#Home {
+ background-color: gray;
+}
+
+#WeA {
+ background-color: green;
+}
+
+#NoA {
+ background-color: blue;
+}
+
+#EaA {
+ background-color: blue;}
+
+#SoA {
+ background-color: blue;
+}
+#CeA {
+ background-color: blue;
+}
+#About {
+ background-color: orange;
+}
+
+.column {
+float: left;
+width: 23.6%;
+margin-bottom: 8px;
+padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+.column {
+  width: 100%;
+  display: block;
+}
+}
+
+.card {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+width: 300px;
+height: 540px;
+background-color: white;
+}
+
+.container {
+padding: 0 16px;
+}
+
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.title {
+color: grey;
+}
+
+.button {
+border: none;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+background-color: #555;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+p{
+  position: relative;
+  width: 250px;
+}
+
+.container2 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: relative;
+  top: 200px;
+}
+
+h3{
+  position: relative;
+  top:200px;
+}

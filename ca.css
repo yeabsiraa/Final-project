@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  background-color: #F0B27A;
+}
+
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style tab links */
+ .tablink {
+  background-color: black;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 14.283%;
+  position: relative;
+}
+
+.tablink2 {
+ background-color: black;
+ color: white;
+ float: left;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 14px 16px;
+ font-size: 17px;
+ width: 14.283%;
+ position: relative;
+ top: -19px;
+}
+
+.tablink:hover {
+  background-color: #5499C7;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+ .tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {
+  background-color: gray;
+}
+
+#WeA {
+  background-color: green;
+}
+
+#NoA {
+  background-color: blue;
+}
+
+#EaA {
+  background-color: blue;}
+
+#SoA {
+  background-color: blue;
+}
+#CeA {
+  background-color: blue;
+}
+#About {
+  background-color: orange;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://thenypost.files.wordpress.com/2018/09/180910-making-rain-sahara-desert-feature.jpg?quality=90&strip=all&w=618&h=410&crop=1");
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 45px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 400px;
+}
+
+/* #section2 {
+  height: 500px;
+} */
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+html {
+  smooth-behavior: scroll;
+}
+
+* {box-sizing: border-box;}
+
+.img-comp-container1 {
+  position: relative;
+  right: 50px;
+  top: 40px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-container2 {
+  position: relative;
+  top: 130px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-container3 {
+  position: relative;
+  top: 330px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-container4 {
+  position: relative;
+  top: 530px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-container5 {
+  position: relative;
+  top: 730px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-container6 {
+  position: relative;
+  top: 930px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-container7 {
+  position: relative;
+  top: 1330px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-container8 {
+  position: relative;
+  top: 1730px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-container9 {
+  position: relative;
+  top: 2140px;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+/* Sidebar/left column */
+.side {
+  flex: 40%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 60%;
+  /* background-color: white; */
+  padding: 50px;
+}
+
+/* Fake image, just for this example */
+/* .fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+} */
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
